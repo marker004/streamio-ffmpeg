@@ -172,6 +172,10 @@ module FFMPEG
       ["-crf", value]
     end
 
+    def convert_tune(value)
+      ["-tune", value]
+    end
+
     def convert_watermark(value)
       ["-i", value]
     end
