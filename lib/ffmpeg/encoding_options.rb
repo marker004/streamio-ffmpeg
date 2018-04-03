@@ -168,6 +168,10 @@ module FFMPEG
       ["-preset", value]
     end
 
+    def convert_crf(value)
+      ["-crf", value]
+    end
+
     def convert_watermark(value)
       ["-i", value]
     end
